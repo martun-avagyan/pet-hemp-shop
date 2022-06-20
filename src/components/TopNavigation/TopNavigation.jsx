@@ -14,9 +14,9 @@ function TopNavigation() {
         <img src={logo} alt="" />
       </div>
       {TOP_NAVIGATION_ITEMS.map(({ name, link, id }) => (
-        <a className={styles.navItem} href={link} key={id}>
-          {name}
-        </a>
+          <a className={styles.navItem} href={link} key={id}>
+            {name}
+          </a>
       ))}
       <div>
         <img src={search} alt="search" />

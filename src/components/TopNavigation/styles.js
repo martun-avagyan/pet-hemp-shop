@@ -5,15 +5,18 @@ const useStyles = createUseStyles(
     root: {
       display: "flex",
       height: "90px",
+
+      // width: "1441px",
       justifyContent: "space-between",
       alignItems: "center",
       padding: [0, 80],
       backgroundColor: "#fff",
-      gap: "53px",
+      gap: "30px",
     },
     navItem: {
       fontFamily: "Roboto",
       fontStyle: "normal",
+
       fontWeight: 400,
       fontSize: "18px",
       lineHeight: "190%",

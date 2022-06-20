@@ -9,6 +9,7 @@ import MoreInfoSection from "./components/MoreInfoSection";
 import SubscribeSection from "./components/SubscribeSection";
 import ImageGrid from "./components/ImageGrid";
 import KeyWays from "./components/KeyWays";
+import Footer from "./components/Footer";
 import useStyles from "./styles";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <MoreInfoSection />
       <ImageGrid />
       <SubscribeSection />
+      <Footer />
     </div>
   );
 }
