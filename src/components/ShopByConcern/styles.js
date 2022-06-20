@@ -1,4 +1,5 @@
 import { createUseStyles } from "react-jss";
+import { BreakPoints } from "../../utils/breakPoints";
 
 const useStyles = createUseStyles(
   {
@@ -13,6 +14,9 @@ const useStyles = createUseStyles(
       width: "100%",
       display: "flex",
       gap: "28px",
+      [`@media (max-width: ${BreakPoints.Medium}px)`]: {
+        flexDirection: "column",
+      },
     },
     title: {
       marginLeft: "189px",
